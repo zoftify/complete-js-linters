@@ -1,0 +1,28 @@
+{
+  "name": "@zoftify/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Zoftify's base typescript ESLint config",
+  "author": "Alexander Ragin (https://twitter.com/@ragin_io)",
+  "homepage": "https://github.com/zoftify/complete-js-linters",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoftify/complete-js-linters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoftify/complete-js-linters/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "~5.4.0",
+    "@typescript-eslint/parser": "~5.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "typescript": ">=3.x"
+  },
+  "devDependencies": {
+    "eslint": ">=7",
+    "typescript": ">=3.x"
+  }
+}
