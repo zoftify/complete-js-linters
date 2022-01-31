@@ -6,6 +6,9 @@
   "homepage": "https://github.com/zoftify/complete-js-linters",
   "license": "MIT",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zoftify/complete-js-linters.git"
@@ -24,5 +27,6 @@
   "devDependencies": {
     "eslint": ">=7",
     "typescript": ">=3.x"
-  }
+  },
+  "gitHead": "2127b8b3aab7d78972bd115bb218e96031efc96c"
 }
